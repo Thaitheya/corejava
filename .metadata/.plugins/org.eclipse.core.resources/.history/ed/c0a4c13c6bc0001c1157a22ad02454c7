@@ -1,0 +1,14 @@
+package com.chainsys.Oops;
+
+import com.chainsys.Oops.Arithematic;
+
+public class Startup {
+     public static void main(String[] args) {
+	  
+    Arithematic obj = new Arithematic();
+	System.out.println(obj.add(2, 7));
+	System.out.println(obj.divide(10, 5));
+	System.out.println(obj.multiply(2, 5));
+	
+   }
+}

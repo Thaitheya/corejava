@@ -1,0 +1,13 @@
+package com.chainsys.Oops;
+
+import com.chainsys.Oops.ICalculator.sum;
+
+public class Startup {
+     public static void main(String[] args) {
+	  
+	sum obj = new sum();
+	System.out.println(obj.add(2, 5));
+	System.out.println(obj.divide(10, 5));
+	System.out.println(obj.multiply(2, 5));
+   }
+}

@@ -1,0 +1,32 @@
+package BasedDD;
+
+import com.chainsys.exceptionss.ArithematicException;
+
+public class DivideExceptionHandle{
+	public static void Vote(int age)
+	{
+		if(age < 18) {
+			throw new ArithematicException("Access Denied");
+		}else {
+			System.out.println("You are eligible for vote ");
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+public static void main(String[] args) {
+   		
+     
+Vote(18);
+
+}
+}
+

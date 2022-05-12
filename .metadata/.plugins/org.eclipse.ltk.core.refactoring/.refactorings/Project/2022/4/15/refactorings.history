@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;startup.java&apos; to &apos;Project/src/com.chainsys.entrypoint&apos;&#x0D;&#x0A;- Original project: &apos;Project&apos;&#x0D;&#x0A;- Destination element: &apos;Project/src/com.chainsys.entrypoint&apos;&#x0D;&#x0A;- Original element: &apos;com.chainsys.exceptionss.startup.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.chainsys.entrypoint" element1="/src&lt;com.chainsys.exceptionss{startup.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1649044575199" units="1" version="1.0"/>
+</session>

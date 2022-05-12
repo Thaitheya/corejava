@@ -1,0 +1,12 @@
+package com.chainsys.Oops;
+
+public class Startup {
+     public static void main(String[] args) {
+	  
+	sum obj = new sum();
+	System.out.println(obj.add(2, 4));
+	System.out.println(obj.divide(10, 5));
+	System.out.println(obj.multiply(2, 5));
+	
+   }
+}

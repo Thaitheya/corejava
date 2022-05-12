@@ -1,0 +1,46 @@
+package com.chainsys.exceptionss;
+
+public class DemoTrace {
+	public static void main(String[] args) {
+		m4();
+		
+	}
+    public static void m1() {
+    	try {
+    		m2();
+    	}catch(Exception err) {
+    		System.out.println("getMessage " + err.getMessage());
+    		err.printStackTrace();
+    	}finally {
+    		System.out.println("Inside m1 Family");
+    	}
+    }
+    public static void m2() {
+    	try {
+    		m3();
+    	}catch(Exception err) {
+    		System.out.println("getMessage " + err.getMessage());
+    		err.printStackTrace();
+    	}finally {
+    		System.out.println("Inside m2 Family");
+    	}
+    }
+    public static void m3() {
+    	try {
+    		m4();
+    	}catch(Exception err) {
+    		System.out.println("getMessage " + err.getMessage());
+    		err.printStackTrace();
+    	}finally {
+    		System.out.println("Inside m3 Family")
+    	}
+    }
+    public static void m4() {
+             int x;
+             int y = 0;
+             int z = 0;
+             x = 100;
+             z = x/y;
+             System.out.println("Result " + z);
+    }
+}

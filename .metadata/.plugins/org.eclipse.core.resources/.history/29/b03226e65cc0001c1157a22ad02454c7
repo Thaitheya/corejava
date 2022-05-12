@@ -1,0 +1,10 @@
+package com.chainsys.Oops;
+
+public class Startup {
+     public static void main(String[] args) {
+		ICalculator.sum();
+	
+	
+	
+   }
+}

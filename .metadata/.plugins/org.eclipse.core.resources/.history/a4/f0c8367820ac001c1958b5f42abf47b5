@@ -1,0 +1,25 @@
+package com.chainsys.classandmethod;
+
+import com.chainsys.unittest.BookTest;
+import com.chainsys.unittest.Emptest;
+
+/***
+ * @author thai3141
+ * @version 1.0
+ * date: Mar 3 2022
+ * @category Classroom lessons
+ * purpose: entry point class for the entire project
+ */
+public class startup {
+	/*** 
+	 * @author thai3141
+	 * @version 1.0
+	 * purpose portable executable entry point for the lessons
+	 */
+   public static void main(String[] args) {
+      
+	  BookTest.getAuthor();
+	  BookTest.getBookNames();
+	  BookTest.getYearOfPublish();
+   }
+}

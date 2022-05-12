@@ -1,0 +1,30 @@
+package com.chainsys.threads;
+
+public class Callme {
+	public class Worker {
+	    public static  int amount = 0;
+	  
+	   
+	    public static  void callme() {
+	        long currentthreadid = Thread.currentThread().getId();
+	        System.out.println("Inside Callme thread ID " + currentthreadid);
+	        
+	        try {
+	            for (int i = 0; i < 5; i++) {
+	                amount += i;
+	                System.out.println(currentthreadid + "  " + amount);
+	                // Thread.sleep(1000);
+	            }
+	        } catch (Exception e) {
+	            System.out.println(e.getMessage());
+	        }
+	    
+	}
+	public static void main(String[] args) {
+	    Worker.callme();
+	}
+	}
+	    
+
+
+}

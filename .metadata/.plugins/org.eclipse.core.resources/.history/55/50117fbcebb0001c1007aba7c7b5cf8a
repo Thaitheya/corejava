@@ -1,0 +1,7 @@
+package com.chainsys.classandmethod;
+
+import java.lang.Object.Bank;
+
+public class BankEmployee extends Bank {
+
+}
