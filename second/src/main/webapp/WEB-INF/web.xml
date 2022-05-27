@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_ID" version="2.5">
+  <display-name>second</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>FirstProject</display-name>
+    <servlet-name>FirstProject</servlet-name>
+    <servlet-class>com.thaitheyasudan.Servlet.FirstProject</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstProject</servlet-name>
+    <url-pattern>/FirstProject</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginPage</display-name>
+    <servlet-name>LoginPage</servlet-name>
+    <servlet-class>com.tts.login.LoginPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginPage</servlet-name>
+    <url-pattern>/LoginPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LogOut</display-name>
+    <servlet-name>LogOut</servlet-name>
+    <servlet-class>com.tts.login.LogOut</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogOut</servlet-name>
+    <url-pattern>/LogOut</url-pattern>
+  </servlet-mapping>
+</web-app>
