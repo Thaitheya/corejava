@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+    <!-- top -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#" id="navbar__logo">OpenSea.io</a>
+           
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a th:href="@{/admin}" class="navbar__links">Admin-Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a th:href="@{/Signup}" class="navbar__links">Signup</a>
+                </li>     
+            </ul>
+        </div>
+    </nav>
+    <!-- Mid -->
+
+    <nav class="navbar_manage" style="background-color: #141414;">
+        <div>
+            <h1 style="color:#fff;text-align: center;font-size:xx-large;">Welcome back, Chief</h1>
+            <p style="color: #fff; margin: 50px;">Easily manage your data from this admin <mark>CMS</mark></p>
+            <div class="container">  
+                <div class="item item1">  
+                    <h3>Manage your categories of nft's</h3>  
+                  <button>
+                    <div class="navbar_category">
+                       
+                        <a th:href="@{/admin/categories}"><b>Category</b></a>
+                    </div>
+                </button>
+                </div>    
+                <div class="item item2">  
+                    <h3>Manage your nft collections</h3>  
+                  <button>
+                    <div class="navbar_product">
+                        
+                    <a th:href="@{/admin/products}"><b>product</b></a>
+                </div>
+                </button>
+                </div>
+            </div>  
+    </nav>
+    
+</body>
+</html>
